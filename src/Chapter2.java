@@ -1,9 +1,10 @@
 public class Chapter2 {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 3;
-        int m = Math.max(a,b);
-        System.out.println("比較実験:" +
-        a + "と" + b + "と大きいほうは・・・" + m );
+        System.out.println("あなたの名前を入力してください。");
+        String name = new java.util.Scanner(System.in).nextLine();
+        System.out.println("あなたの年齢を入力してください。");
+        int age = new java.util.Scanner(System.in).nextInt();
+        System.out.println
+        ("ようこそ、" + age + "歳の" + name + "さん");
     }
 }
