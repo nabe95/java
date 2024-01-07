@@ -1,16 +1,12 @@
 public class Chapter3 {
     public static void main(String[] args) {
-        int isHungry = 1;
-        String food = "ケーキ";
-        System.out.println("こんにちは");
-        if (isHungry == 0) {
-            System.out.println("お腹がいっぱいです");
+        boolean tenki = true;
+        if (tenki == true) {
+            System.out.println("洗濯をします");
+            System.out.println("散歩にいきます");
         } else {
-            System.out.println("はらぺこです");
+        System.out.println("映画を見ます");
+        System.out.println("寝ます");
         }
-        if (isHungry == 1) {
-            System.out.println(food + "をいただきます");
-        }
-    System.out.println("ごちそうさまでした");
     }
 }
