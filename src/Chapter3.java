@@ -1,11 +1,16 @@
 public class Chapter3 {
     public static void main(String[] args) {
-        for (int i = 1; i < 10; i++) {
-            for (int j = 1; j < 10; j++) {
-                System.out.println(i * j);
-                System.out.println(" ");
-            }
-            System.out.println("");
+        int isHungry = 1;
+        String food = "ケーキ";
+        System.out.println("こんにちは");
+        if (isHungry == 0) {
+            System.out.println("お腹がいっぱいです");
+        } else {
+            System.out.println("はらぺこです");
         }
+        if (isHungry == 1) {
+            System.out.println(food + "をいただきます");
+        }
+    System.out.println("ごちそうさまでした");
     }
 }
