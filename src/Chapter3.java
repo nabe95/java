@@ -1,10 +1,11 @@
 public class Chapter3 {
     public static void main(String[] args) {
-        boolean doorClose = true;
-        while (doorClose = true) {
-            // whileで繰り返し
-            System.out.println("ノックをする");
-            System.out.println("1分待つ");
+        for (int i = 1; i < 10; i++) {
+            for (int j = 1; j < 10; j++) {
+                System.out.println(i * j);
+                System.out.println(" ");
+            }
+            System.out.println("");
         }
     }
 }
