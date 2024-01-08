@@ -1,12 +1,11 @@
 public class Chapter4 {
     public static void main(String[] args) {
-        int[] scores = {20, 30, 40, 50, 80};
-        int count = 0;
-        for (int i = 0; i < scores.length; i++) {
-            if (scores[i] >= 50) {
-                count++;
-            }
+        int[] moneyList = {12902, 8302, 55100};
+        for (int i = 0; i < moneyList.length; i++) {
+            System.out.println(moneyList[i]);
         }
-        System.out.println("50点以上の科目数は:" + count);
+        for (int m : moneyList) {
+            System.out.println(m);
+        }
     }
 }
