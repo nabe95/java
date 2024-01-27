@@ -1,11 +1,11 @@
 public class Practice {
-    public static void main(String[]args) {
-        String prof1 = "名前:朝香あゆみ \n    (あさかあゆみ)";
-        String prof2 = """
-                        名前: 湊雄輔
-                            (みなとゆうすけ)
-                                """;
-    System.out.println(prof1);
-    System.out.println(prof2);
+    public static void main(String[] args) {
+        boolean tenki = true;
+        if (tenki == true) {
+            System.out.println("洗濯をします");
+            System.out.println("散歩にいきます");
+        } else {
+            System.out.println("映画を見ます");
+        }
     }
 }
