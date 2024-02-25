@@ -1,7 +1,7 @@
 public class  Chapter11 {
     public static void main(String[] args) {
-        Hero h = new Hero();
+        Character c = new Character();
         Matango m = new Matango();
-        h.attack(m);
-  }
+        c.attack(m);
+    }
 }
